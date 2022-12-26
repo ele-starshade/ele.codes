@@ -23,11 +23,11 @@ exports.handler = async function (event, context) {
       headers
     })
 
-    console.log(data)
+    console.log(data.feedItems)
 
     return {
       statusCode: 200,
-      body: data
+      body: JSON.stringify({ message: data.feedItems })
     }
   } catch (error) {
     return {
