@@ -7,6 +7,7 @@ const headers = {
 }
 
 exports.handler = async function (event, context) {
+  if (!context.clientContext?.user) return { statusCode: 401, body: 'Unauthorized' }
   if (event.httpMethod !== 'GET') return { statusCode: 405, body: 'Method Not Allowed' }
 
   try {
