@@ -2,12 +2,13 @@
   <div class="home">
     <h1>Ele Codes</h1>
     <p>Coming soon...</p>
-    <p style="margin-top: 20px;" v-if="isLoggedIn">
-      Hello {{ user.user_metadata?.full_name }} <button @click="logout">Logout</button>
+    <div style="margin-top: 20px;" v-if="isLoggedIn">
+      <p>Hello {{ user.user_metadata?.full_name }}</p>
 
-      <button style="margin-top: 50px;" @click="getStarling">Get Starling Transactions</button>
-    </p>
-    <button style="margin-top: 20px;" v-else @click="login">Login (Only certain users right now)</button>
+      <button type="button" class="btn btn-error" @click="logout">Logout</button>
+      <button type="button" class="btn btn-info" @click="getStarling">Get Starling Transactions</button>
+    </div>
+    <button type="button" class="btn btn-info" v-else @click="login">Login (Only certain users right now)</button>
   </div>
 </template>
 
@@ -17,7 +18,7 @@ import axios from 'axios'
 
 netlifyIdentity.init({
   // APIUrl: 'https://ele.codes/.netlify/identity',
-  logo: true
+  logo: false
 })
 
 export default {

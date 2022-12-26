@@ -9,8 +9,6 @@ const headers = {
 exports.handler = async function (event, context) {
   const { identity, user } = context.clientContext
 
-  console.log(event, context)
-
   if (!identity || !user) return { statusCode: 401, body: 'Unauthorized' }
   if (event.httpMethod !== 'GET') return { statusCode: 405, body: 'Method Not Allowed' }
 
@@ -23,16 +21,16 @@ exports.handler = async function (event, context) {
       headers
     })
 
-    console.log(data.feedItems)
-
     return {
       statusCode: 200,
       body: JSON.stringify(data.feedItems)
     }
   } catch (error) {
+    console.error(error)
+
     return {
       statusCode: 500,
-      body: error.response?.data || error.request || error.message
+      body: `Error fetching transactions: ${error.response.statusText}`
     }
   }
 }
