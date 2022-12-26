@@ -15,7 +15,7 @@ exports.handler = async function (event, context) {
   if (event.httpMethod !== 'GET') return { statusCode: 405, body: 'Method Not Allowed' }
 
   try {
-    const { data } = axios.get(API_BASE_URL, {
+    const { data } = await axios.get(API_BASE_URL, {
       params: {
         minTransactionTimestamp: event.queryStringParameters?.startDate || formatISO(lastDayOfMonth(subMonths(new Date(), 1))),
         maxTransactionTimestamp: event.queryStringParameters?.endDate || formatISO(lastDayOfMonth(new Date()))
