@@ -3,7 +3,7 @@
     <h1>Ele Codes</h1>
     <p>Coming soon...</p>
     <div style="margin-top: 20px;" v-if="isLoggedIn">
-      <p>Hello {{ user.user_metadata?.full_name }}</p>
+      <p>Hello {{ userName }}</p>
 
       <button type="button" class="btn btn-error" @click="logout">Logout</button>
       <button type="button" class="btn btn-info" @click="getStarling">Get Starling Transactions</button>
@@ -13,13 +13,8 @@
 </template>
 
 <script>
-import netlifyIdentity from 'netlify-identity-widget'
 import axios from 'axios'
-
-netlifyIdentity.init({
-  // APIUrl: 'https://ele.codes/.netlify/identity',
-  logo: false
-})
+import { mapActions, mapGetters, mapState } from 'vuex'
 
 export default {
   name: 'Home',
@@ -29,27 +24,25 @@ export default {
     }
   },
   computed: {
-    user () {
-      return JSON.parse(window.localStorage.getItem('gotrue.user'))
-    },
-    isLoggedIn () {
-      return this.user
-    }
+    ...mapState({
+      userData: state => state.user.data
+    }),
+    ...mapGetters({
+      isLoggedIn: 'user/isLoggedIn',
+      userName: 'user/name'
+    })
   },
   methods: {
-    login () {
-      netlifyIdentity.open('login')
-    },
-    logout () {
-      window.localStorage.removeItem('gotrue.user')
-      netlifyIdentity.logout()
-    },
+    ...mapActions({
+      login: 'user/login',
+      logout: 'user/logout'
+    }),
     getStarling () {
       try {
         const { data } = axios.get('/.netlify/functions/starling-get-transactions', {
           withCredentials: true,
           headers: {
-            Authorization: `Bearer ${this.user.token.access_token}`
+            Authorization: `Bearer ${this.userData.token.access_token}`
           }
         })
 
@@ -58,14 +51,6 @@ export default {
         console.error(error)
       }
     }
-  },
-  mounted () {
-    netlifyIdentity.on('init', user => console.log(user))
-    netlifyIdentity.on('login', user => console.log(user))
-    netlifyIdentity.on('logout', () => console.log('Logged out'))
-    netlifyIdentity.on('error', err => console.error('Logged out', err))
-    netlifyIdentity.on('open', () => console.log('Widget opened'))
-    netlifyIdentity.on('close', () => console.log('Widget closed'))
   }
 }
 </script>
