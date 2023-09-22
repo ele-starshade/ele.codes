@@ -1,28 +1,42 @@
 module.exports = {
-  root: true,
-  env: {
-    node: true
+  "env": {
+    "browser": true,
+    "es2021": true
   },
-  extends: [
-    'plugin:vue/vue3-essential',
-    '@vue/standard'
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-recommended"
   ],
-  parserOptions: {
-    parser: 'babel-eslint'
-  },
-  rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
-  },
-  overrides: [
+  "overrides": [
     {
-      files: [
-        '**/__tests__/*.{j,t}s?(x)',
-        '**/tests/unit/**/*.spec.{j,t}s?(x)'
+      "env": {
+        "node": true
+      },
+      "files": [
+        ".eslintrc.{js,cjs}",
+        ".vue"
       ],
-      env: {
-        jest: true
+      "parserOptions": {
+        "sourceType": "script"
       }
+    },
+    {
+      "files": [
+        "cypress/e2e/**/*.{cy,spec}.{js,ts,jsx,tsx}"
+      ],
+      "extends": [
+        "plugin:cypress/recommended"
+      ]
     }
-  ]
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "vue"
+  ],
+  "rules": {
+    "indent": ["error", 2]
+  }
 }

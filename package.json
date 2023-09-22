@@ -1,59 +1,38 @@
 {
   "name": "ele.codes",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "test:e2e": "vue-cli-service test:e2e",
-    "lint": "vue-cli-service lint"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "test:e2e": "start-server-and-test preview http://localhost:4173 'cypress run --e2e'",
+    "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' http://localhost:4173 'cypress open --e2e'",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "@popperjs/core": "^2.11.6",
-    "axios": "^1.2.1",
-    "bootstrap": "^5.3.0-alpha1",
-    "core-js": "^3.6.5",
-    "date-fns": "^2.29.3",
-    "netlify-identity-widget": "^1.9.2",
-    "register-service-worker": "^1.7.1",
-    "vue": "^3.2.45",
-    "vue-router": "^4.0.13",
-    "vuex": "^4.1.0"
+    "@vuestic/ag-grid-theme": "^1.1.4",
+    "@vuestic/tailwind": "^0.1.3",
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "vuestic-ui": "^1.7.5"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-e2e-nightwatch": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-pwa": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-unit-jest": "~4.5.0",
-    "@vue/cli-plugin-vuex": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "@vue/eslint-config-standard": "^5.1.2",
-    "@vue/test-utils": "^2.0.0-0",
-    "babel-eslint": "^10.1.0",
-    "chromedriver": "97",
-    "eslint": "^6.7.2",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-vue": "^7.0.0",
-    "lint-staged": "^9.5.0",
-    "sass": "^1.57.1",
-    "sass-loader": "^8.0.2",
-    "typescript": "~3.9.3",
-    "vue-jest": "^5.0.0-0"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.{js,jsx,vue}": [
-      "vue-cli-service lint",
-      "git add"
-    ]
+    "@vitejs/plugin-vue": "^4.3.4",
+    "@vue/test-utils": "^2.4.1",
+    "autoprefixer": "^10.4.15",
+    "cypress": "^13.2.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "jsdom": "^22.1.0",
+    "postcss": "^8.4.28",
+    "start-server-and-test": "^2.0.0",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.4"
   }
 }
