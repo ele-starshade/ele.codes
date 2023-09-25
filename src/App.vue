@@ -18,7 +18,7 @@ const year = ref(date.getFullYear())
         <template #center>
           <va-navbar-item class="pa-4">
             <img
-              src="logo.png"
+              src="/logo.png"
               style="height: 30px;"
             >
           </va-navbar-item>
