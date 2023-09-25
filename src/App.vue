@@ -1,59 +1,41 @@
 <script setup>
-import { ref } from "vue"
-import { useBreakpoint } from "vuestic-ui/web-components"
-import { RouterLink } from "vue-router"
+import { ref } from 'vue'
 
-const showSidebar = ref(true)
-const breakpoints = useBreakpoint()
+const date = new Date()
+const year = ref(date.getFullYear())
 </script>
 
 <template>
   <va-layout
-    :left="{ absolute: breakpoints.smDown }"
+    :top="{ order: 1 }"
+    :bottom="{ order: 1 }"
   >
     <template #top>
       <va-navbar
-        color="secondary"
+        color="shadow"
         class="py-2"
       >
-        <template #left>
-          <va-button
-            :icon="showSidebar ? 'menu_open' : 'menu'"
-            color="secondary"
-            @click="showSidebar = !showSidebar"
-          />
-        </template>
-        <!-- <template #center>
-          <va-navbar-item class="font-bold text-lg">
-            ele.codes
+        <template #center>
+          <va-navbar-item class="pa-4">
+            <img
+              src="logo.png"
+              style="height: 30px;"
+            >
           </va-navbar-item>
-        </template> -->
+        </template>
       </va-navbar>
-    </template>
-
-    <template #left>
-      <va-sidebar
-        v-model="showSidebar"
-        color="secondary"
-      >
-        <va-sidebar-item
-          :active="$route.name === 'home'"
-          @click="$router.push({ name: 'home' })"
-        >
-          <va-sidebar-item-content>
-            <VaIcon name="home" /> 
-            <va-sidebar-item-title>
-              Home
-            </va-sidebar-item-title>
-          </va-sidebar-item-content>
-        </va-sidebar-item>
-      </va-sidebar>
     </template>
 
     <template #content>
       <main class="pa-4">
         <router-view />
       </main>
+    </template>
+
+    <template #bottom>
+      <footer class="pa-4 va-border-top va-text-right">
+        &copy; Copyright ele.codes {{ year }}
+      </footer>
     </template>
   </va-layout>
 </template>
