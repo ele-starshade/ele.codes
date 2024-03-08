@@ -31,6 +31,7 @@
     "jsdom": "^22.1.0",
     "material-design-icons-iconfont": "^6.7.0",
     "postcss": "^8.4.30",
+    "sass": "^1.71.1",
     "start-server-and-test": "^2.0.0",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.9",

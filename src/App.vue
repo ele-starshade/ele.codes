@@ -1,42 +1,43 @@
+<template>
+  <va-layout
+    :top="{ order: 1 }"
+    :bottom="{ order: 1 }"
+    class="layout-wrapper"
+  >
+    <!-- <template #top>
+      <app-navigation />
+    </template> -->
+
+    <template #content>
+      <main>
+        <router-view />
+      </main>
+    </template>
+
+    <!-- <template #bottom>
+      <footer class="pa-4 va-border-top va-text-right">
+        &copy; Copyright fabo.live {{ year }}
+      </footer>
+    </template> -->
+  </va-layout>
+</template>
+
 <script setup>
 import { ref } from 'vue'
+import AppNavigation from '@/components/AppNavigation.vue'
 
 const date = new Date()
 const year = ref(date.getFullYear())
 </script>
 
-<template>
-  <va-layout
-    :top="{ order: 1 }"
-    :bottom="{ order: 1 }"
-  >
-    <template #top>
-      <va-navbar
-        color="shadow"
-        class="py-2"
-      >
-        <template #left>
-          <va-navbar-item class="pa-4">
-            <img
-              src="/favicon.png"
-              style="height: 30px;"
-              alt="logo"
-            >
-          </va-navbar-item>
-        </template>
-      </va-navbar>
-    </template>
+<style>
+  html, body {
+    width: 100%;
+    min-height: 100%;
+  }
 
-    <template #content>
-      <main class="pa-4">
-        <router-view />
-      </main>
-    </template>
-
-    <template #bottom>
-      <footer class="pa-4 va-border-top va-text-right">
-        &copy; Copyright fabo.live {{ year }}
-      </footer>
-    </template>
-  </va-layout>
-</template>
+  .layout-wrapper {
+    width: 100vw;
+    min-height: 100vh;
+  }
+</style>
