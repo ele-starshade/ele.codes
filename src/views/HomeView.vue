@@ -46,6 +46,8 @@ const value = ref(0)
     left: 0;
     height: 100vh;
     width: 100vw;
+    pointer-events: none;
+    user-select: none;
   }
 
   .overlay-carousel {
@@ -58,6 +60,8 @@ const value = ref(0)
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    pointer-events: none;
+    user-select: none;
 
     * {
       opacity: 1;
@@ -65,6 +69,8 @@ const value = ref(0)
 
     img {
       width: 75%;
+      pointer-events: none;
+      user-select: none;
     }
 
     a {
@@ -72,6 +78,7 @@ const value = ref(0)
       border: 1px solid #34a2fc;
       font-size: 32px;
       padding: 10px;
+      pointer-events: all;
 
       &:hover {
         color: #cecece;
