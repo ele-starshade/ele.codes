@@ -15,15 +15,15 @@ const year = ref(date.getFullYear())
         color="shadow"
         class="py-2"
       >
-        <div style="height: 30px; width: 1px;" />
-        <!--<template #center>
+        <template #left>
           <va-navbar-item class="pa-4">
             <img
-              src="/logo.png"
+              src="/favicon.png"
               style="height: 30px;"
+              alt="logo"
             >
           </va-navbar-item>
-        </template>-->
+        </template>
       </va-navbar>
     </template>
 
