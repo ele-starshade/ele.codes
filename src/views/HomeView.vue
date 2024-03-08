@@ -28,6 +28,14 @@ const value = ref(0)
       src="/logo.png"
       alt="logo"
     >
+    <p>
+      <a
+        href="https://twitch.tv/fabo_bluebun"
+        target="_blank"
+      >
+        Watch on Twitch
+      </a>
+    </p>
   </div>
 </template>
 
@@ -49,6 +57,7 @@ const value = ref(0)
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     * {
       opacity: 1;
@@ -56,6 +65,18 @@ const value = ref(0)
 
     img {
       width: 75%;
+    }
+
+    a {
+      color: #34a2fc;
+      border: 1px solid #34a2fc;
+      font-size: 32px;
+      padding: 10px;
+
+      &:hover {
+        color: #cecece;
+        border: 1px solid #34a2fc;
+      }
     }
   }
 </style>
