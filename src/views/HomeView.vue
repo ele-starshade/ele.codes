@@ -8,6 +8,16 @@ const items = ref([
   '/stream-screenshots/Twitch-Screenshot-3.png'
 ])
 const value = ref(0)
+const autoscroll = ref(true)
+
+window.onblur = function () {
+  autoscroll.value(false)
+};
+
+// If users come back to the current tab again, the below function will invoke
+window.onfocus = function () {
+  autoscroll.value(true)
+};
 </script>
 
 <template>
@@ -17,7 +27,7 @@ const value = ref(0)
     :indicators="false"
     width="100vw"
     height="100vh"
-    autoscroll
+    :autoscroll="autoscroll"
     :autoscroll-interval="10000"
     class="carousel"
     :arrows="false"
@@ -27,6 +37,7 @@ const value = ref(0)
     <img
       src="/logo.png"
       alt="logo"
+      class="mb-5"
     >
     <div>
       <a
@@ -77,7 +88,7 @@ const value = ref(0)
     }
 
     img {
-      width: 75%;
+      width: 60%;
       pointer-events: none;
       user-select: none;
     }
