@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from "vue";
+import { ref } from "vue"
 
 const items = ref([
   '/stream-screenshots/Twitch-Screenshot-4.png',
@@ -28,14 +28,23 @@ const value = ref(0)
       src="/logo.png"
       alt="logo"
     >
-    <p>
+    <div>
       <a
         href="https://twitch.tv/fabo_bluebun"
         target="_blank"
+        class="mr-2"
+        alt="visit twitch"
       >
-        Watch on Twitch
+        <FontAwesomeIcon :icon="['fab', 'twitch']" />
       </a>
-    </p>
+      <a
+        href="https://www.instagram.com/fabo_bluebun"
+        target="_blank"
+        alt="visit instagram"
+      >
+        <FontAwesomeIcon :icon="['fab', 'instagram']" />
+      </a>
+    </div>
   </div>
 </template>
 
@@ -75,14 +84,12 @@ const value = ref(0)
 
     a {
       color: #34a2fc;
-      border: 1px solid #34a2fc;
-      font-size: 32px;
+      font-size: 64px;
       padding: 10px;
       pointer-events: all;
 
       &:hover {
         color: #cecece;
-        border: 1px solid #34a2fc;
       }
     }
   }

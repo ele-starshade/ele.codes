@@ -16,9 +16,14 @@
 </script>
 
 <style>
+  * {
+    box-sizing: border-box;
+  }
+
   html, body {
     width: 100%;
     min-height: 100%;
+    box-sizing: border-box;
   }
 
   .layout-wrapper {
