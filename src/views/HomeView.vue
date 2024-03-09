@@ -11,12 +11,12 @@ const value = ref(0)
 const autoscroll = ref(true)
 
 window.onblur = function () {
-  autoscroll.value(false)
+  autoscroll.value = false
 };
 
 // If users come back to the current tab again, the below function will invoke
 window.onfocus = function () {
-  autoscroll.value(true)
+  autoscroll.value = true
 };
 </script>
 
