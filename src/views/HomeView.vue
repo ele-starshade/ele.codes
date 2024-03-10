@@ -46,14 +46,22 @@ window.onfocus = function () {
         class="mr-2"
         alt="visit twitch"
       >
-        <FontAwesomeIcon :icon="['fab', 'twitch']" />
+        <font-awesome-icon :icon="['fab', 'twitch']" />
+      </a>
+      <a
+        href="https://www.youtube.com/@FaboBluebun"
+        target="_blank"
+        class="mr-2"
+        alt="visit youtube"
+      >
+        <font-awesome-icon :icon="['fab', 'youtube-square']" />
       </a>
       <a
         href="https://www.instagram.com/fabo_bluebun"
         target="_blank"
         alt="visit instagram"
       >
-        <FontAwesomeIcon :icon="['fab', 'instagram']" />
+        <font-awesome-icon :icon="['fab', 'instagram']" />
       </a>
     </div>
   </div>
