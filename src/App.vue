@@ -34,7 +34,7 @@ const year = ref(date.getFullYear())
 
     <template #bottom>
       <footer class="pa-4 va-border-top va-text-right">
-        &copy; Copyright ele.codes {{ year }}
+        &copy; Copyright ele.codes {{ year }} <a rel="me" href="https://tech.lgbt/@Ele">Mastodon</a>
       </footer>
     </template>
   </va-layout>
