@@ -1265,7 +1265,7 @@ Using default hardcoded config...
 [2025.08.28-08.41.07:952][  0]LogEngine: Initializing Engine...
 [2025.08.28-08.41.07:966][  0]LogAssetManager: Display: Ignoring PrimaryAssetType Profiling - Conflicts with Map - Asset: Map_UI-Profile
 [2025.08.28-08.41.07:968][  0]LogInit: Initializing FReadOnlyCVARCache
-[2025.08.28-08.41.07:968][  0]LogNetVersion: Set ProjectVersion to 0.0.1.0. Version Checksum will be recalculated on next use.
+[2025.08.28-08.41.07:968][  0]LogNetVersion: Set ProjectVersion to IP_MASKED. Version Checksum will be recalculated on next use.
 [2025.08.28-08.41.07:968][  0]LogInit: Texture streaming: Enabled
 [2025.08.28-08.41.07:969][  0]LogAudio: Display: Initializing Audio Device Manager...
 [2025.08.28-08.41.07:997][  0]LogAudio: Display: Loading Default Audio Settings Objects...
@@ -1752,35 +1752,35 @@ Using default hardcoded config...
 [2025.08.28-08.41.14:373][346]LogRHI: FShaderPipelineCache::BeginNextPrecompileCacheTask() - Finished, no jobs remaining.
 [2025.08.28-08.41.29:279][556]LogStreamableManager: Display: RequestAsyncLoad() called with empty or only null assets!
 [2025.08.28-08.41.30:617][854]LogBlueprintUserMessages: [mSaveManager] Refresh Save List
-[2025.08.28-08.41.30:625][854]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:627][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:627][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:627][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:627][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:627][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:627][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:625][854]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:627][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:627][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:627][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:627][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:627][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:627][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
 [2025.08.28-08.41.30:633][855]LogStreaming: Display: FlushAsyncLoading(488): 1 QueuedPackages, 0 AsyncPackages
-[2025.08.28-08.41.30:638][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:638][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:638][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:638][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:638][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:638][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
 [2025.08.28-08.41.30:644][855]LogScript: Warning: UAkGameplayStatics::PostAkEvent: NULL Actor specified!
-[2025.08.28-08.41.30:644][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:644][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:644][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:644][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:644][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:644][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:644][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:644][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:644][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:644][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:644][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:644][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
 [2025.08.28-08.41.30:645][855]LogBlueprintUserMessages: [mSaveManager] Refresh Save List
-[2025.08.28-08.41.30:645][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:645][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:645][855]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-08.41.30:688][866]LogServerManager: Server '194.163.142.18' state changed from Offline to Playing
-[2025.08.28-08.41.30:688][866]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as Server's NetCL 0 is different from the Client NetCL 424353.
+[2025.08.28-08.41.30:645][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:645][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:645][855]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-08.41.30:688][866]LogServerManager: Server 'IP_MASKED' state changed from Offline to Playing
+[2025.08.28-08.41.30:688][866]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as Server's NetCL 0 is different from the Client NetCL 424353.
 [2025.08.28-08.41.30:688][866]LogServerManager: VeryVerbose: Received sub state version update from the server: sub state id 0, version 0 -> 3
 [2025.08.28-08.41.30:688][866]LogServerManager: VeryVerbose: Received sub state version update from the server: sub state id 1, version 0 -> 1
 [2025.08.28-08.41.30:688][866]LogServerManager: VeryVerbose: Received sub state version update from the server: sub state id 3, version 0 -> 1
 [2025.08.28-08.41.30:688][866]LogServerManager: VeryVerbose: Received sub state version update from the server: sub state id 2, version 0 -> 2
-[2025.08.28-08.41.31:034][941]LogServerManager: Health Check Concluded for Server '194.163.142.18'. Server API Up and Running.
+[2025.08.28-08.41.31:034][941]LogServerManager: Health Check Concluded for Server 'IP_MASKED'. Server API Up and Running.
 [2025.08.28-08.41.31:034][941]LogBlueprintUserMessages: [mSaveManager] Refresh Save List
 [2025.08.28-08.41.31:034][941]LogBlueprintUserMessages: [mSaveManager] Refresh Save List
 [2025.08.28-08.41.31:236][985]LogStreaming: Display: FlushAsyncLoading(497): 1 QueuedPackages, 0 AsyncPackages
@@ -1788,25 +1788,25 @@ Using default hardcoded config...
 [2025.08.28-08.41.37:016][227]LogScript: Warning: UAkGameplayStatics::PostAkEvent: NULL Actor specified!
 [2025.08.28-08.41.38:721][596]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
 [2025.08.28-08.41.38:721][596]LogGameState: Match State Changed from InProgress to LeavingMap
-[2025.08.28-08.41.38:721][596]LogNet: Browse: 194.163.142.18:32200/Game/FactoryGame/Map/MenuScenes/Map_Menu_1_01?ClientIdentity=21000000613934366430646634636138343539393031663465346264396330386438386600010000000608000000e13f6a3f01001001?EntryTicket=ew0KCSJwbCI6ICJBZG1pbmlzdHJhdG9yIiwNCgkiaWR0IjogIjE3NTYzNzc2OTgiDQp9.4F5E996B2570590349732DE727DD74DE5CF10FDDDCCE41A3825258558E2D3D3DA0D44DDCF2A2AA7836FF886436C5A005C2A3123EDC93275B5E1C514D632B95B5?EncryptionToken=9DD98CF657A054B2620DEB062F3D8D6AA6FB952339B2293DD399DBC8352D60DD
+[2025.08.28-08.41.38:721][596]LogNet: Browse: IP_MASKED:32200/Game/FactoryGame/Map/MenuScenes/Map_Menu_1_01?ClientIdentity=21000000613934366430646634636138343539393031663465346264396330386438386600010000000608000000e13f6a3f01001001?EntryTicket=ew0KCSJwbCI6ICJBZG1pbmlzdHJhdG9yIiwNCgkiaWR0IjogIjE3NTYzNzc2OTgiDQp9.4F5E996B2570590349732DE727DD74DE5CF10FDDDCCE41A3825258558E2D3D3DA0D44DDCF2A2AA7836FF886436C5A005C2A3123EDC93275B5E1C514D632B95B5?EncryptionToken=9DD98CF657A054B2620DEB062F3D8D6AA6FB952339B2293DD399DBC8352D60DD
 [2025.08.28-08.41.38:721][596]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
 [2025.08.28-08.41.38:721][596]LogNet: Created socket for bind address: [::]:0
 [2025.08.28-08.41.38:721][596]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
-[2025.08.28-08.41.38:721][596]LogNet: Created socket for bind address: 0.0.0.0:0
+[2025.08.28-08.41.38:721][596]LogNet: Created socket for bind address: IP_MASKED:0
 [2025.08.28-08.41.38:722][596]LogNet: IpConnection_2147477472 setting maximum channels to: 32767
 [2025.08.28-08.41.38:722][596]PacketHandlerLog: Loaded PacketHandler component: DTLSHandlerComponent ()
 [2025.08.28-08.41.38:722][596]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
 [2025.08.28-08.41.38:731][596]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 6
 [2025.08.28-08.41.38:731][596]LogNet: Game client on port 32200, rate 300000
 [2025.08.28-08.41.38:731][596]LogNetVersion: FactoryGame ++FactoryGame+rel-main-1.1.0-CL-424353, NetCL: 424353, EngineNetworkVersion: 32, GameNetworkVersion: 0 (Checksum: 4145869828)
-[2025.08.28-08.41.39:863][841]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 194.163.142.18:32200, Name: IpConnection_2147477472, Driver: PendingNetDriver IpNetDriver_2147477473, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2025.08.28-08.41.39:863][841]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: IP_MASKED:32200, Name: IpConnection_2147477472, Driver: PendingNetDriver IpNetDriver_2147477473, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
 [2025.08.28-08.41.39:932][856]LogNet:  --- Unknown/unexpected message for pending level
 [2025.08.28-08.41.39:932][856]LogDTLSHandler: EnableEncryption: Client
 [2025.08.28-08.41.40:002][871]LogNet:  --- Unknown/unexpected message for pending level
 [2025.08.28-08.41.40:010][873]LogDTLSHandler: DTLSPSKClientCallback: Key successfully set, Identity: 9DD98CF657A054B2620DEB062F3D8D6AA6FB952339B2293DD399DBC8352D60DD
 [2025.08.28-08.41.40:076][887]LogDTLSHandler: UpdateHandshake:  Handshaking completed
 [2025.08.28-08.41.40:339][944]LogNet: Welcomed by server (Level: /Game/FactoryGame/Map/GameLevel01/Persistent_Level, Game: /Game/FactoryGame/-Shared/Blueprint/BP_GameMode.BP_GameMode_C)
-[2025.08.28-08.41.40:343][944]LogLoad: LoadMap: 194.163.142.18:32200/Game/FactoryGame/Map/GameLevel01/Persistent_Level?ClientIdentity=21000000613934366430646634636138343539393031663465346264396330386438386600010000000608000000e13f6a3f01001001?EntryTicket=ew0KCSJwbCI6ICJBZG1pbmlzdHJhdG9yIiwNCgkiaWR0IjogIjE3NTYzNzc2OTgiDQp9.4F5E996B2570590349732DE727DD74DE5CF10FDDDCCE41A3825258558E2D3D3DA0D44DDCF2A2AA7836FF886436C5A005C2A3123EDC93275B5E1C514D632B95B5?EncryptionToken=9DD98CF657A054B2620DEB062F3D8D6AA6FB952339B2293DD399DBC8352D60DD?game=/Game/FactoryGame/-Shared/Blueprint/BP_GameMode.BP_GameMode_C
+[2025.08.28-08.41.40:343][944]LogLoad: LoadMap: IP_MASKED:32200/Game/FactoryGame/Map/GameLevel01/Persistent_Level?ClientIdentity=21000000613934366430646634636138343539393031663465346264396330386438386600010000000608000000e13f6a3f01001001?EntryTicket=ew0KCSJwbCI6ICJBZG1pbmlzdHJhdG9yIiwNCgkiaWR0IjogIjE3NTYzNzc2OTgiDQp9.4F5E996B2570590349732DE727DD74DE5CF10FDDDCCE41A3825258558E2D3D3DA0D44DDCF2A2AA7836FF886436C5A005C2A3123EDC93275B5E1C514D632B95B5?EncryptionToken=9DD98CF657A054B2620DEB062F3D8D6AA6FB952339B2293DD399DBC8352D60DD?game=/Game/FactoryGame/-Shared/Blueprint/BP_GameMode.BP_GameMode_C
 [2025.08.28-08.41.40:343][944]LogWorld: BeginTearingDown for /Game/FactoryGame/Map/MenuScenes/Map_Menu_1_01
 [2025.08.28-08.41.40:347][944]LogBlueprintUserMessages: [mSaveManager] Refresh Save List
 [2025.08.28-08.41.40:351][944]LogAkAudio: AFGPlayerControllerBase::RemoveWwise
@@ -2752,8 +2752,8 @@ More info: https://docs.ficsit.app/satisfactory-modding/latest/SMLChatCommands.h
 [2025.08.28-09.02.02:374][892]LogWorld: BeginTearingDown for /Game/FactoryGame/Map/GameLevel01/Persistent_Level
 [2025.08.28-09.02.02:381][892]LogNet: World NetDriver shutdown IpNetDriver_2147477473 [GameNetDriver]
 [2025.08.28-09.02.02:381][892]LogNet: DestroyNamedNetDriver IpNetDriver_2147477473 [GameNetDriver]
-[2025.08.28-09.02.02:383][892]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 194.163.142.18:32200, Name: IpConnection_2147477472, Driver: GameNetDriver IpNetDriver_2147477473, IsServer: NO, PC: BP_PlayerController_C_2147477037, Owner: BP_PlayerController_C_2147477037, UniqueId: Steam:1 (76561199024193505), Channels: 303, Time: 2025.08.28-09.02.02
-[2025.08.28-09.02.02:383][892]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 194.163.142.18:32200, Name: IpConnection_2147477472, Driver: GameNetDriver IpNetDriver_2147477473, IsServer: NO, PC: BP_PlayerController_C_2147477037, Owner: BP_PlayerController_C_2147477037, UniqueId: Steam:1 (76561199024193505)
+[2025.08.28-09.02.02:383][892]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: IP_MASKED:32200, Name: IpConnection_2147477472, Driver: GameNetDriver IpNetDriver_2147477473, IsServer: NO, PC: BP_PlayerController_C_2147477037, Owner: BP_PlayerController_C_2147477037, UniqueId: Steam:1 (76561199024193505), Channels: 303, Time: 2025.08.28-09.02.02
+[2025.08.28-09.02.02:383][892]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: IP_MASKED:32200, Name: IpConnection_2147477472, Driver: GameNetDriver IpNetDriver_2147477473, IsServer: NO, PC: BP_PlayerController_C_2147477037, Owner: BP_PlayerController_C_2147477037, UniqueId: Steam:1 (76561199024193505)
 [2025.08.28-09.02.02:384][892]LogExit: GameNetDriver IpNetDriver_2147477473 shut down
 [2025.08.28-09.02.02:384][892]LogAkAudio: AFGPlayerControllerBase::RemoveWwise
 [2025.08.28-09.02.02:492][892]LogWorld: UWorld::CleanupWorld for Persistent_Level, bSessionEnded=true, bCleanupResources=true
@@ -3125,24 +3125,24 @@ More info: https://docs.ficsit.app/satisfactory-modding/latest/SMLChatCommands.h
 [2025.08.28-09.02.09:592][479]LogBlueprintUserMessages: [mSaveManager] Refresh Save List
 [2025.08.28-09.02.11:172][707]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
 [2025.08.28-09.02.11:172][707]LogGameState: Match State Changed from InProgress to LeavingMap
-[2025.08.28-09.02.11:172][707]LogNet: Browse: 194.163.142.18:32200/Game/FactoryGame/Map/MenuScenes/Map_Menu_1_01?ClientIdentity=21000000613934366430646634636138343539393031663465346264396330386438386600010000000608000000e13f6a3f01001001?EntryTicket=ew0KCSJwbCI6ICJBZG1pbmlzdHJhdG9yIiwNCgkiaWR0IjogIjE3NTYzNzg5MzEiDQp9.469C588BF5E096A6070F6BA6745CBD01B78DC5D410B69985425FE100185F21F64D61BB41E71C898DAD2095C1EE2F4107E1AEE173FD9BF9FB437E4B3AA95B1B8C?EncryptionToken=47E3EA4FF89C61431DF1BA8BDE29BB79A34F61D11707FEE70C66067D3745A3C0
+[2025.08.28-09.02.11:172][707]LogNet: Browse: IP_MASKED:32200/Game/FactoryGame/Map/MenuScenes/Map_Menu_1_01?ClientIdentity=21000000613934366430646634636138343539393031663465346264396330386438386600010000000608000000e13f6a3f01001001?EntryTicket=ew0KCSJwbCI6ICJBZG1pbmlzdHJhdG9yIiwNCgkiaWR0IjogIjE3NTYzNzg5MzEiDQp9.469C588BF5E096A6070F6BA6745CBD01B78DC5D410B69985425FE100185F21F64D61BB41E71C898DAD2095C1EE2F4107E1AEE173FD9BF9FB437E4B3AA95B1B8C?EncryptionToken=47E3EA4FF89C61431DF1BA8BDE29BB79A34F61D11707FEE70C66067D3745A3C0
 [2025.08.28-09.02.11:172][707]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
 [2025.08.28-09.02.11:172][707]LogNet: Created socket for bind address: [::]:0
 [2025.08.28-09.02.11:172][707]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
-[2025.08.28-09.02.11:172][707]LogNet: Created socket for bind address: 0.0.0.0:0
+[2025.08.28-09.02.11:172][707]LogNet: Created socket for bind address: IP_MASKED:0
 [2025.08.28-09.02.11:172][707]LogNet: IpConnection_2147387946 setting maximum channels to: 32767
 [2025.08.28-09.02.11:172][707]PacketHandlerLog: Loaded PacketHandler component: DTLSHandlerComponent ()
 [2025.08.28-09.02.11:172][707]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
 [2025.08.28-09.02.11:174][707]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 7
 [2025.08.28-09.02.11:174][707]LogNet: Game client on port 32200, rate 300000
-[2025.08.28-09.02.12:248][862]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 194.163.142.18:32200, Name: IpConnection_2147387946, Driver: PendingNetDriver IpNetDriver_2147387947, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2025.08.28-09.02.12:248][862]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: IP_MASKED:32200, Name: IpConnection_2147387946, Driver: PendingNetDriver IpNetDriver_2147387947, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
 [2025.08.28-09.02.12:283][867]LogNet:  --- Unknown/unexpected message for pending level
 [2025.08.28-09.02.12:283][867]LogDTLSHandler: EnableEncryption: Client
 [2025.08.28-09.02.12:317][872]LogNet:  --- Unknown/unexpected message for pending level
 [2025.08.28-09.02.12:359][878]LogDTLSHandler: DTLSPSKClientCallback: Key successfully set, Identity: 47E3EA4FF89C61431DF1BA8BDE29BB79A34F61D11707FEE70C66067D3745A3C0
 [2025.08.28-09.02.12:428][888]LogDTLSHandler: UpdateHandshake:  Handshaking completed
 [2025.08.28-09.02.12:658][921]LogNet: Welcomed by server (Level: /Game/FactoryGame/Map/GameLevel01/Persistent_Level, Game: /Game/FactoryGame/-Shared/Blueprint/BP_GameMode.BP_GameMode_C)
-[2025.08.28-09.02.12:698][921]LogLoad: LoadMap: 194.163.142.18:32200/Game/FactoryGame/Map/GameLevel01/Persistent_Level?ClientIdentity=21000000613934366430646634636138343539393031663465346264396330386438386600010000000608000000e13f6a3f01001001?EntryTicket=ew0KCSJwbCI6ICJBZG1pbmlzdHJhdG9yIiwNCgkiaWR0IjogIjE3NTYzNzg5MzEiDQp9.469C588BF5E096A6070F6BA6745CBD01B78DC5D410B69985425FE100185F21F64D61BB41E71C898DAD2095C1EE2F4107E1AEE173FD9BF9FB437E4B3AA95B1B8C?EncryptionToken=47E3EA4FF89C61431DF1BA8BDE29BB79A34F61D11707FEE70C66067D3745A3C0?game=/Game/FactoryGame/-Shared/Blueprint/BP_GameMode.BP_GameMode_C
+[2025.08.28-09.02.12:698][921]LogLoad: LoadMap: IP_MASKED:32200/Game/FactoryGame/Map/GameLevel01/Persistent_Level?ClientIdentity=21000000613934366430646634636138343539393031663465346264396330386438386600010000000608000000e13f6a3f01001001?EntryTicket=ew0KCSJwbCI6ICJBZG1pbmlzdHJhdG9yIiwNCgkiaWR0IjogIjE3NTYzNzg5MzEiDQp9.469C588BF5E096A6070F6BA6745CBD01B78DC5D410B69985425FE100185F21F64D61BB41E71C898DAD2095C1EE2F4107E1AEE173FD9BF9FB437E4B3AA95B1B8C?EncryptionToken=47E3EA4FF89C61431DF1BA8BDE29BB79A34F61D11707FEE70C66067D3745A3C0?game=/Game/FactoryGame/-Shared/Blueprint/BP_GameMode.BP_GameMode_C
 [2025.08.28-09.02.12:698][921]LogWorld: BeginTearingDown for /Game/FactoryGame/Map/MenuScenes/Map_Menu_1_01
 [2025.08.28-09.02.12:701][921]LogBlueprintUserMessages: [mSaveManager] Refresh Save List
 [2025.08.28-09.02.12:706][921]LogAkAudio: AFGPlayerControllerBase::RemoveWwise
@@ -3968,7 +3968,7 @@ More info: https://docs.ficsit.app/satisfactory-modding/latest/SMLChatCommands.h
 [2025.08.28-09.23.08:572][178]LogNetPlayerMovement: Warning: CreateSavedMove: Hit limit of 96 saved moves (timing out or very bad ping?)
 [2025.08.28-09.23.10:551][463]LogNetPlayerMovement: Warning: CreateSavedMove: Hit limit of 96 saved moves (timing out or very bad ping?)
 [2025.08.28-09.23.12:531][748]LogNetPlayerMovement: Warning: CreateSavedMove: Hit limit of 96 saved moves (timing out or very bad ping?)
-[2025.08.28-09.23.13:672][913]LogServerManager: Server '194.163.142.18' state changed from Playing to Offline
+[2025.08.28-09.23.13:672][913]LogServerManager: Server 'IP_MASKED' state changed from Playing to Offline
 [2025.08.28-09.23.14:510][ 33]LogNetPlayerMovement: Warning: CreateSavedMove: Hit limit of 96 saved moves (timing out or very bad ping?)
 [2025.08.28-09.23.16:489][318]LogNetPlayerMovement: Warning: CreateSavedMove: Hit limit of 96 saved moves (timing out or very bad ping?)
 [2025.08.28-09.23.18:467][603]LogNetPlayerMovement: Warning: CreateSavedMove: Hit limit of 96 saved moves (timing out or very bad ping?)
@@ -4011,8 +4011,8 @@ More info: https://docs.ficsit.app/satisfactory-modding/latest/SMLChatCommands.h
 [2025.08.28-09.23.27:441][886]LogWorld: BeginTearingDown for /Game/FactoryGame/Map/GameLevel01/Persistent_Level
 [2025.08.28-09.23.27:450][886]LogNet: World NetDriver shutdown IpNetDriver_2147387947 [GameNetDriver]
 [2025.08.28-09.23.27:451][886]LogNet: DestroyNamedNetDriver IpNetDriver_2147387947 [GameNetDriver]
-[2025.08.28-09.23.27:452][886]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 194.163.142.18:32200, Name: IpConnection_2147387946, Driver: GameNetDriver IpNetDriver_2147387947, IsServer: NO, PC: BP_PlayerController_C_2147387515, Owner: BP_PlayerController_C_2147387515, UniqueId: Steam:1 (76561199024193505), Channels: 118, Time: 2025.08.28-09.23.27
-[2025.08.28-09.23.27:452][886]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 194.163.142.18:32200, Name: IpConnection_2147387946, Driver: GameNetDriver IpNetDriver_2147387947, IsServer: NO, PC: BP_PlayerController_C_2147387515, Owner: BP_PlayerController_C_2147387515, UniqueId: Steam:1 (76561199024193505)
+[2025.08.28-09.23.27:452][886]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: IP_MASKED:32200, Name: IpConnection_2147387946, Driver: GameNetDriver IpNetDriver_2147387947, IsServer: NO, PC: BP_PlayerController_C_2147387515, Owner: BP_PlayerController_C_2147387515, UniqueId: Steam:1 (76561199024193505), Channels: 118, Time: 2025.08.28-09.23.27
+[2025.08.28-09.23.27:452][886]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: IP_MASKED:32200, Name: IpConnection_2147387946, Driver: GameNetDriver IpNetDriver_2147387947, IsServer: NO, PC: BP_PlayerController_C_2147387515, Owner: BP_PlayerController_C_2147387515, UniqueId: Steam:1 (76561199024193505)
 [2025.08.28-09.23.27:452][886]LogExit: GameNetDriver IpNetDriver_2147387947 shut down
 [2025.08.28-09.23.27:452][886]LogAkAudio: AFGPlayerControllerBase::RemoveWwise
 [2025.08.28-09.23.27:492][886]LogWorld: UWorld::CleanupWorld for Persistent_Level, bSessionEnded=true, bCleanupResources=true
@@ -4402,76 +4402,76 @@ More info: https://docs.ficsit.app/satisfactory-modding/latest/SMLChatCommands.h
 [2025.08.28-09.23.49:947][674]LogSatisfactoryModLoader: Warning: 1 missing mods found:
 [2025.08.28-09.23.49:947][674]LogSatisfactoryModLoader: Warning: Ficsit Remote Monitoring (FicsitRemoteMonitoring) is missing
 [2025.08.28-09.24.32:338][777]LogBlueprintUserMessages: [mSaveManager] Refresh Save List
-[2025.08.28-09.24.32:344][777]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:347][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:347][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:347][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:347][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:347][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:347][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:344][777]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:347][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:347][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:347][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:347][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:347][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:347][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
 [2025.08.28-09.24.32:353][778]LogStreaming: Display: FlushAsyncLoading(4086): 1 QueuedPackages, 0 AsyncPackages
-[2025.08.28-09.24.32:355][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:355][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:355][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:355][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:355][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:355][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
 [2025.08.28-09.24.32:360][778]LogScript: Warning: UAkGameplayStatics::PostAkEvent: NULL Actor specified!
-[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
 [2025.08.28-09.24.32:360][778]LogBlueprintUserMessages: [mSaveManager] Refresh Save List
-[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for '194.163.142.18' as the Server is currently in the Offline State
-[2025.08.28-09.24.43:130][329]LogServerManager: Server '194.163.142.18' state changed from Offline to Playing
+[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.32:360][778]LogServerManager: Verbose: Server API connection not available for 'IP_MASKED' as the Server is currently in the Offline State
+[2025.08.28-09.24.43:130][329]LogServerManager: Server 'IP_MASKED' state changed from Offline to Playing
 [2025.08.28-09.24.43:130][329]LogServerManager: VeryVerbose: Received sub state version update from the server: sub state id 0, version 0 -> 2
 [2025.08.28-09.24.43:130][329]LogServerManager: VeryVerbose: Received sub state version update from the server: sub state id 1, version 0 -> 1
 [2025.08.28-09.24.43:130][329]LogServerManager: VeryVerbose: Received sub state version update from the server: sub state id 3, version 0 -> 1
 [2025.08.28-09.24.43:130][329]LogServerManager: VeryVerbose: Received sub state version update from the server: sub state id 2, version 0 -> 1
-[2025.08.28-09.24.43:130][329]LogServerManager: VeryVerbose: Server API connection not available for '194.163.142.18' as we are already attempting to establish a connection
+[2025.08.28-09.24.43:130][329]LogServerManager: VeryVerbose: Server API connection not available for 'IP_MASKED' as we are already attempting to establish a connection
 [2025.08.28-09.24.46:150][764]LogHttp: Warning: 00000284D5D428F0: request failed, libcurl error: 28 (Timeout was reached)
-[2025.08.28-09.24.46:150][764]LogHttp: Warning: 00000284D5D428F0: libcurl info message cache 17 (  Trying 194.163.142.18:32200...)
-[2025.08.28-09.24.46:150][764]LogHttp: Warning: 00000284D5D428F0: libcurl info message cache 18 (Connected to 194.163.142.18 (194.163.142.18) port 32200)
+[2025.08.28-09.24.46:150][764]LogHttp: Warning: 00000284D5D428F0: libcurl info message cache 17 (  Trying IP_MASKED:32200...)
+[2025.08.28-09.24.46:150][764]LogHttp: Warning: 00000284D5D428F0: libcurl info message cache 18 (Connected to IP_MASKED (IP_MASKED) port 32200)
 [2025.08.28-09.24.46:150][764]LogHttp: Warning: 00000284D5D428F0: libcurl info message cache 19 (ALPN: curl offers http/1.1)
 [2025.08.28-09.24.46:151][764]LogHttp: Warning: 00000284D5D428F0: libcurl info message cache 20 (SSL reusing session ID)
 [2025.08.28-09.24.46:151][764]LogHttp: Warning: 00000284D5D428F0: libcurl info message cache 21 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
 [2025.08.28-09.24.46:151][764]LogHttp: Warning: 00000284D5D428F0: libcurl info message cache 22 (SSL connection timeout)
 [2025.08.28-09.24.46:151][764]LogHttp: Warning: 00000284D5D428F0: libcurl info message cache 23 (Closing connection)
-[2025.08.28-09.24.46:151][764]LogServerManager: Health Check Concluded for Server '194.163.142.18': Failed to Connect to the Server API (connection_refused). Server API Unavailable.
+[2025.08.28-09.24.46:151][764]LogServerManager: Health Check Concluded for Server 'IP_MASKED': Failed to Connect to the Server API (connection_refused). Server API Unavailable.
 [2025.08.28-09.24.46:857][864]LogStreaming: Display: 0.013 ms for processing 1331 objects in RemoveUnreachableObjects(Queued=0, Async=0). Removed 0 (8167->8167) packages and 0 (21685->21685) public exports.
 [2025.08.28-09.24.52:747][713]LogHttp: Warning: 00000284D5D41D50: request failed, libcurl error: 28 (Timeout was reached)
-[2025.08.28-09.24.52:747][713]LogHttp: Warning: 00000284D5D41D50: libcurl info message cache 24 (Hostname 194.163.142.18 was found in DNS cache)
-[2025.08.28-09.24.52:747][713]LogHttp: Warning: 00000284D5D41D50: libcurl info message cache 25 (  Trying 194.163.142.18:32200...)
-[2025.08.28-09.24.52:747][713]LogHttp: Warning: 00000284D5D41D50: libcurl info message cache 26 (Connected to 194.163.142.18 (194.163.142.18) port 32200)
+[2025.08.28-09.24.52:747][713]LogHttp: Warning: 00000284D5D41D50: libcurl info message cache 24 (Hostname IP_MASKED was found in DNS cache)
+[2025.08.28-09.24.52:747][713]LogHttp: Warning: 00000284D5D41D50: libcurl info message cache 25 (  Trying IP_MASKED:32200...)
+[2025.08.28-09.24.52:747][713]LogHttp: Warning: 00000284D5D41D50: libcurl info message cache 26 (Connected to IP_MASKED (IP_MASKED) port 32200)
 [2025.08.28-09.24.52:747][713]LogHttp: Warning: 00000284D5D41D50: libcurl info message cache 27 (ALPN: curl offers http/1.1)
 [2025.08.28-09.24.52:747][713]LogHttp: Warning: 00000284D5D41D50: libcurl info message cache 28 (SSL reusing session ID)
 [2025.08.28-09.24.52:747][713]LogHttp: Warning: 00000284D5D41D50: libcurl info message cache 29 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
 [2025.08.28-09.24.52:747][713]LogHttp: Warning: 00000284D5D41D50: libcurl info message cache 30 (SSL connection timeout)
 [2025.08.28-09.24.52:747][713]LogHttp: Warning: 00000284D5D41D50: libcurl info message cache 31 (Closing connection)
-[2025.08.28-09.24.52:747][713]LogServerManager: Health Check Concluded for Server '194.163.142.18': Failed to Connect to the Server API (connection_refused). Server API Unavailable.
+[2025.08.28-09.24.52:747][713]LogServerManager: Health Check Concluded for Server 'IP_MASKED': Failed to Connect to the Server API (connection_refused). Server API Unavailable.
 [2025.08.28-09.24.53:901][879]LogServerManager: VeryVerbose: Received sub state version update from the server: sub state id 2, version 1 -> 2
-[2025.08.28-09.24.59:068][623]LogServerManager: Health Check Concluded for Server '194.163.142.18'. Server API Up and Running.
+[2025.08.28-09.24.59:068][623]LogServerManager: Health Check Concluded for Server 'IP_MASKED'. Server API Up and Running.
 [2025.08.28-09.24.59:068][623]LogBlueprintUserMessages: [mSaveManager] Refresh Save List
 [2025.08.28-09.24.59:068][623]LogBlueprintUserMessages: [mSaveManager] Refresh Save List
 [2025.08.28-09.25.00:864][881]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
 [2025.08.28-09.25.00:864][881]LogGameState: Match State Changed from InProgress to LeavingMap
-[2025.08.28-09.25.00:864][881]LogNet: Browse: 194.163.142.18:32200/Game/FactoryGame/Map/MenuScenes/Map_Menu_1_01?ClientIdentity=21000000613934366430646634636138343539393031663465346264396330386438386600010000000608000000e13f6a3f01001001?EntryTicket=ew0KCSJwbCI6ICJBZG1pbmlzdHJhdG9yIiwNCgkiaWR0IjogIjE3NTYzODAzMDEiDQp9.8077155BD7CF1F93121F4AB63EB8B2943CF9287029E70E1EAA0AE7D3852934B1EEC70324E12509C2BEBE5287D7C38E53D46D1366E10E5D3EC7966365E6EFDB43?EncryptionToken=1911FF45785E01D21F49E103C8110EE382577D0F29D92FF76570C753A3D4BA54
+[2025.08.28-09.25.00:864][881]LogNet: Browse: IP_MASKED:32200/Game/FactoryGame/Map/MenuScenes/Map_Menu_1_01?ClientIdentity=21000000613934366430646634636138343539393031663465346264396330386438386600010000000608000000e13f6a3f01001001?EntryTicket=ew0KCSJwbCI6ICJBZG1pbmlzdHJhdG9yIiwNCgkiaWR0IjogIjE3NTYzODAzMDEiDQp9.8077155BD7CF1F93121F4AB63EB8B2943CF9287029E70E1EAA0AE7D3852934B1EEC70324E12509C2BEBE5287D7C38E53D46D1366E10E5D3EC7966365E6EFDB43?EncryptionToken=1911FF45785E01D21F49E103C8110EE382577D0F29D92FF76570C753A3D4BA54
 [2025.08.28-09.25.00:864][881]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
 [2025.08.28-09.25.00:864][881]LogNet: Created socket for bind address: [::]:0
 [2025.08.28-09.25.00:864][881]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
-[2025.08.28-09.25.00:864][881]LogNet: Created socket for bind address: 0.0.0.0:0
+[2025.08.28-09.25.00:864][881]LogNet: Created socket for bind address: IP_MASKED:0
 [2025.08.28-09.25.00:864][881]LogNet: IpConnection_2147262361 setting maximum channels to: 32767
 [2025.08.28-09.25.00:864][881]PacketHandlerLog: Loaded PacketHandler component: DTLSHandlerComponent ()
 [2025.08.28-09.25.00:864][881]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
 [2025.08.28-09.25.00:865][881]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 0
 [2025.08.28-09.25.00:865][881]LogNet: Game client on port 32200, rate 300000
-[2025.08.28-09.25.01:967][ 40]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 194.163.142.18:32200, Name: IpConnection_2147262361, Driver: PendingNetDriver IpNetDriver_2147262362, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2025.08.28-09.25.01:967][ 40]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: IP_MASKED:32200, Name: IpConnection_2147262361, Driver: PendingNetDriver IpNetDriver_2147262362, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
 [2025.08.28-09.25.02:037][ 50]LogDTLSHandler: EnableEncryption: Client
 [2025.08.28-09.25.02:120][ 62]LogDTLSHandler: DTLSPSKClientCallback: Key successfully set, Identity: 1911FF45785E01D21F49E103C8110EE382577D0F29D92FF76570C753A3D4BA54
 [2025.08.28-09.25.02:190][ 72]LogDTLSHandler: UpdateHandshake:  Handshaking completed
 [2025.08.28-09.25.02:377][ 99]LogNet: Welcomed by server (Level: /Game/FactoryGame/Map/GameLevel01/Persistent_Level, Game: /Game/FactoryGame/-Shared/Blueprint/BP_GameMode.BP_GameMode_C)
-[2025.08.28-09.25.02:429][ 99]LogLoad: LoadMap: 194.163.142.18:32200/Game/FactoryGame/Map/GameLevel01/Persistent_Level?ClientIdentity=21000000613934366430646634636138343539393031663465346264396330386438386600010000000608000000e13f6a3f01001001?EntryTicket=ew0KCSJwbCI6ICJBZG1pbmlzdHJhdG9yIiwNCgkiaWR0IjogIjE3NTYzODAzMDEiDQp9.8077155BD7CF1F93121F4AB63EB8B2943CF9287029E70E1EAA0AE7D3852934B1EEC70324E12509C2BEBE5287D7C38E53D46D1366E10E5D3EC7966365E6EFDB43?EncryptionToken=1911FF45785E01D21F49E103C8110EE382577D0F29D92FF76570C753A3D4BA54?game=/Game/FactoryGame/-Shared/Blueprint/BP_GameMode.BP_GameMode_C
+[2025.08.28-09.25.02:429][ 99]LogLoad: LoadMap: IP_MASKED:32200/Game/FactoryGame/Map/GameLevel01/Persistent_Level?ClientIdentity=21000000613934366430646634636138343539393031663465346264396330386438386600010000000608000000e13f6a3f01001001?EntryTicket=ew0KCSJwbCI6ICJBZG1pbmlzdHJhdG9yIiwNCgkiaWR0IjogIjE3NTYzODAzMDEiDQp9.8077155BD7CF1F93121F4AB63EB8B2943CF9287029E70E1EAA0AE7D3852934B1EEC70324E12509C2BEBE5287D7C38E53D46D1366E10E5D3EC7966365E6EFDB43?EncryptionToken=1911FF45785E01D21F49E103C8110EE382577D0F29D92FF76570C753A3D4BA54?game=/Game/FactoryGame/-Shared/Blueprint/BP_GameMode.BP_GameMode_C
 [2025.08.28-09.25.02:429][ 99]LogWorld: BeginTearingDown for /Game/FactoryGame/Map/MenuScenes/Map_Menu_1_01
 [2025.08.28-09.25.02:433][ 99]LogBlueprintUserMessages: [mSaveManager] Refresh Save List
 [2025.08.28-09.25.02:438][ 99]LogAkAudio: AFGPlayerControllerBase::RemoveWwise
